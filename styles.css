@@ -1,0 +1,9 @@
+.undressed {
+  filter: grayscale(20%) brightness(0.7);
+}
+
+@media (prefer-color-scheme: dark) {
+  .undressed {
+    filter: grayscale(0%) brightness(100%);
+  }
+}
